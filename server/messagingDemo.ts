@@ -1,5 +1,5 @@
 // İslami sosyal platform mesajlaşma demo sistemi
-import { storage } from "./supabaseStorage";
+import { storage } from "./storage";
 import type { InsertUser, InsertPost, InsertDuaRequest, InsertComment } from "@shared/schema";
 
 export async function createDemoMessaging() {
